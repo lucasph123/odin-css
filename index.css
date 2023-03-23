@@ -1,0 +1,166 @@
+body
+{
+    margin: 0px;
+}
+
+.container-head,
+.container-one,
+.container-two,
+.container-three,
+.container-four,
+footer{
+
+    display:flex;
+}
+
+.container-head,
+footer
+{
+background-color: #1F2937;
+color: #F9FAF8;
+}
+
+.container-head{
+    flex:auto;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 50px;
+
+}
+
+.head-prim
+{
+  
+    margin-left: 40px;
+    flex:2 2 auto;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.head-sec
+{
+    flex:auto;
+    display:flex;
+    align-items: center;
+}
+.head-item
+{
+
+    font-size: 17px;
+    margin-right: 10px;
+    flex:auto;
+}
+
+
+
+.container-one
+{
+    background-color: #1F2937;
+    color: white;
+    min-height: 330px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-item,
+.second-item
+{
+    width: 40%;
+    min-height: 220px;
+    height: auto;
+    display:flex;
+}
+
+.first-item
+{
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title
+{
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8
+}
+.description
+{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 5px;
+}
+
+.second-item{
+  align-items: center;
+  justify-content: center;
+  background-color: #6d747d;
+  
+}
+
+.sign-up
+{
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.container-two
+{
+
+    display: flex;
+    flex-direction: column;
+
+    height: 300px;
+    width: auto;
+    align-items: center;
+}
+.two-title
+{
+
+    width: auto;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.two-blocks
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two-itens
+{
+    display: flex;
+    height: auto;
+    width: 150px;
+    flex-direction: column;
+
+}
+
+.container-two > .two-blocks
+{
+    height: 100%;
+    width: 100%;
+}
+
+.blocks{
+
+    border-radius: 10px;
+    height: 127px;
+    width: 127px;
+    border: 3px solid #3882F6;;
+}
+
+.blocks-text
+{
+    font-size: 15px;
+}
